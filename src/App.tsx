@@ -47,7 +47,7 @@ const items = [
 
 export default function App() {
   return (
-    <main className="min-h-screen px-4 text-gray-800 py-14 font-outfit bg-background-image dark:bg-custom-gray-900 dark:text-custom-gray-200">
+    <main className="min-h-screen px-4 pb-12 text-gray-800 pt-14 font-outfit bg-background-image dark:bg-custom-gray-900 dark:text-custom-gray-200">
       <ThemeSwitch />
       <div>
         <div className="space-y-2 text-center">

@@ -18,7 +18,7 @@ export default function FeatureCard({
   emoji,
 }: FeatureCardProps) {
   return (
-    <div className="p-8 bg-gray-100 dark:bg-custom-gray-800 rounded-2xl max-w-[20rem] space-y-6 shadow-md hover:shadow-lg hover:-translate-y-2 transition-transform">
+    <div className="p-8 bg-gray-100 dark:bg-custom-gray-800 rounded-2xl max-w-[20rem] space-y-6 shadow-md hover:shadow-lg hover:-translate-y-2 transition-[transform,box-shadow]">
       <span className={`p-2 text-2xl ${emoji.color} rounded-full`}>
         {emoji.content}
       </span>

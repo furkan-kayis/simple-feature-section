@@ -51,7 +51,7 @@ export default function App() {
       <ThemeSwitch />
       <div>
         <div className="space-y-2 text-center">
-          <h1 className="font-semibold text-[2.5rem]">
+          <h1 className="font-semibold text-[2.5rem] sm:max-w-[18ch] mx-auto">
             Quality feedbacks for your SaaS products
           </h1>
           <p className="text-gray-700 dark:text-custom-gray-400">

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function ThemeSwitch() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   const darkModeHandler = () => {
     setDark(!dark);

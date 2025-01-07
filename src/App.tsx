@@ -47,11 +47,11 @@ const items = [
 
 export default function App() {
   return (
-    <main className="min-h-screen px-4 pb-12 text-gray-800 pt-14 font-outfit bg-background-image dark:bg-custom-gray-900 dark:text-custom-gray-200">
+    <main className="min-h-screen px-4 text-gray-800 py-11 font-outfit bg-background-image dark:bg-custom-gray-900 dark:text-custom-gray-200">
       <ThemeSwitch />
       <div>
         <div className="space-y-2 text-center">
-          <h1 className="font-semibold text-[2.5rem] sm:max-w-[18ch] mx-auto">
+          <h1 className="font-semibold text-[2.5rem] leading-tight sm:max-w-[18ch] mx-auto">
             Quality feedbacks for your SaaS products
           </h1>
           <p className="text-gray-700 dark:text-custom-gray-400">
@@ -59,7 +59,7 @@ export default function App() {
           </p>
         </div>
 
-        <ul className="flex flex-wrap justify-center gap-12 mx-auto mt-12 w-fit">
+        <ul className="flex flex-wrap justify-center mx-auto gap-11 mt-11 w-fit">
           {items.map((item) => (
             <FeatureCard key={item.title} {...item} />
           ))}
